@@ -1,0 +1,21 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ava-cli": "0.0.1",
+    "express": "^4.16.4",
+    "micromatch": "^3.1.10",
+    "supertest": "^3.4.2"
+  },
+  "devDependencies": {
+    "ava": "^1.2.1"
+  }
+}
