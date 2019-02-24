@@ -10,9 +10,9 @@ By default, we use the name of the file that exports the routing definition to n
 
 / > controllers > users > users.routing.js will create the endpoints /users/*
 / > controllers > students > student.routing.js will create the endpoints /student/*
+## ⚙️ CONFIGURATION
 
-Configuration:
-
+```js
 
 Avis.load(app,{
 	preURL: 'api',
@@ -20,9 +20,11 @@ Avis.load(app,{
 	controllers_path: path.join(__dirname, 'controllers')
 });
 
+```
 
-File structure:
 
+## FILE STRUCTURE
+```txt
 project/
 ├── controllers/
 │   ├── user/
@@ -37,4 +39,4 @@ project/
 │   └── sample-ctrl.js
 ├── app.js
 └── package.json
-
+```
