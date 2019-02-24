@@ -8,7 +8,7 @@ app.use(function (req, res, next) {
 	next();
 })
 
-Avis.create(app,{
+Avis.load(app,{
 	preURL: 'api',
 	ignore: ['*.test', '*.action'],
 	controllers_path: path.join(__dirname, 'controllers')
@@ -16,7 +16,7 @@ Avis.create(app,{
 
 const port = 3000
 
-app.load(port, () => console.log(`Example app listening on port ${port}!\n`))
+app.create(port, () => console.log(`Example app listening on port ${port}!\n`))
 
 
 module.exports = app;
