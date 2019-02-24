@@ -30,10 +30,10 @@ project/
 │   ├── user/
 │   │   ├── user.routing.js
 │   │   ├── user.action.js
-│   │   └── user.spec.js
+│   │   └── user.test.js
 │   ├── student/
 │   │   ├── student.routing.js
-│   │   ├── student.spec.js
+│   │   ├── student.test.js
 |   |   ├── student-get.action.js
 │   │   └── student-post.action.js
 │   └── sample-ctrl.js
