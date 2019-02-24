@@ -16,7 +16,7 @@ Avis.load(app,{
 
 const port = 3000
 
-app.create(port, () => console.log(`Example app listening on port ${port}!\n`))
+app.listen(port, () => console.log(`Example app listening on port ${port}!\n`))
 
 
 module.exports = app;
