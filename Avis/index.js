@@ -54,7 +54,7 @@ function browseDirectory(options, ctrlFilepath) {
 
 }
 
-module.exports.create = (app, options = {}) => {
+module.exports.load = (app, options = {}) => {
     if (!app) {
         throw new Error('Expected an express app as first argument');
     }
